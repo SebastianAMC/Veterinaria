@@ -1,6 +1,6 @@
 body {
    background-image: url(img/background.jpg);
-   background-repeat:no-repeat;
+   background-repeat: repeat;
    align-items: center;
 }
 
@@ -10,7 +10,6 @@ h1.tituloregistro{
    font-family: 'Prompt', sans-serif;
    color: white;
    text-shadow: 3px 3px 3px rgb(0, 0, 0);
-
 
 }
 
@@ -42,9 +41,23 @@ textarea {
 .etiqueta {
    border: 0px solid black;
    margin-left: 30%;
+   
 }
 
 div.botones{
    margin: auto;
    text-align: center;
+}
+
+div.formulario2 {
+
+   border: 1px solid rgb(228, 228, 228);
+   border-radius: 15px;
+   box-shadow: 5px 5px 5px gray;
+   padding: 10px;
+   width: 550px;
+   background-color: rgba(230, 230, 230, 0.863);
+   margin-left: 10%;
+   float: left;
+   
 }
