@@ -1,11 +1,21 @@
 body {
-   background-image: url(img/background.jpg);
+   background-image: url(img/background1.jpg);
+   background-position: center;
+   background-size: auto;
    background-repeat: repeat;
    align-items: center;
+
 }
 
+body.horas{
+   background-image: url(img/horasfondo.jpg);
+   background-position: top;
+   background-size: auto;
+}
 h1.tituloregistro{
-   margin-left: 18%;
+   margin:auto;
+   width: 800px;
+   text-align: center;
    font-size: 35px;
    font-family: 'Prompt', sans-serif;
    color: white;
@@ -23,6 +33,7 @@ div.formulario {
    background-color: rgba(230, 230, 230, 0.863);
    margin-left: 10%;
    float: left;
+   margin-bottom: 100px;
    
 }
 
@@ -41,6 +52,7 @@ textarea {
 .etiqueta {
    border: 0px solid black;
    margin-left: 30%;
+   margin-bottom: 10px;
    
 }
 
@@ -58,6 +70,21 @@ div.formulario2 {
    width: 550px;
    background-color: rgba(230, 230, 230, 0.863);
    margin-left: 10%;
+   margin-top: 150px;
    float: left;
    
+}
+
+div.portada {
+   margin:auto;
+   width: 800px;
+   text-align: center;
+   margin-bottom: 50px;
+   
+}
+
+div.botonesinicio {
+   margin: auto;
+   width: 800px;
+   text-align: center;   
 }

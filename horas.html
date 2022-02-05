@@ -5,97 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserva de horas</title>
+    
+    <link rel="stylesheet" href="estilos.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Quicksand&display=swap" rel="stylesheet">
 
 </head>
-<h1 class="tituloregistro">Reserva de horas</h1>
 
-<link rel="stylesheet" href="estilos.css" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Quicksand&display=swap" rel="stylesheet">
-<body>
+<body class="horas">
+    <h1 class="tituloregistro">Reserva de horas</h1>
 
     <div class=formulario2>
-        <form action="" method="get">
+        <form action="horas.html" method="get">
     
             <div class="descriptor">
-                <label for="NombreTutor">Nombre Tutor</label></div>
+                <label for="NombreTutor">Nombre Tutor</label>
+            </div>
             <div class="etiqueta">
-                <input type="text" id="NombreTutor" name="NombreTutor" placeholder="Juan Perez" /></div>
-                <br>
+                <input type="text" id="NombreTutor" name="NombreTutor" placeholder="Juan Perez" />
+            </div>
         
             <div class="descriptor">
-                <label for="fono">Teléfono</label></div>
+                <label for="fono">Teléfono</label>
+            </div>
             <div class="etiqueta">
-                <input type="tel" id="fono" name="fono" placeholder="+569 12345678"/></div>
-                <br>
+                <input type="tel" id="fono" name="fono" placeholder="+569 12345678"/>
+            </div>
     
             <div class="descriptor">
-                <label for="correo">Correo</label></div>
+                <label for="correo">Correo</label>
+            </div>
             <div class="etiqueta">
-                <input type="email" id="correo" name="correo" />
-                <br><br>
+                <input type="email" id="correo" name="correo" placeholder="tutor@correo.com" />
+            </div>
        
             <div class="descriptor">
-                <label for="atencion">Tipo de atención</label></div>
+                <label for="atencion">Tipo de atención</label>
+            </div>
             <div class="etiqueta">
-                    <select id="atencion" name="atencion" >
-                        <option value="consulta">Consulta</option>
-                        <option value="examen">Examen</option>
-                        <option value="Qx">Int. quirúrgica</option>
-                    </select>
-                    </div>
-                    <br>
+                <select id="atencion" name="atencion" >
+                    <option value="consulta">Consulta</option>
+                    <option value="examen">Examen</option>
+                    <option value="Qx">Int. quirúrgica</option>
+                </select>
+            </div>
     
             <div class="descriptor">
-                <label for="dia">Día de la atención</label></div>
+                <label for="dia">Día de la atención</label>
+            </div>
             <div class="etiqueta">
                 <input type="date" id="dia" name="dia"/>
-                </div>
-                <br>
+            </div>
             
             <div class="descriptor">
-                <label for="hora">Hora</label></div>
+                <label for="hora">Hora</label>
+            </div>
             <div class="etiqueta">
                 <select name="hora" id="hora">
-                <option value="8.30">8:30</option>
-                <option value="9.00">9:00</option>
-                <option value="9.30">9:30</option>
-                <option value="10.00">10:00</option>
-                <option value="10.30">10:30</option>
-                <option value="11.00">11:00</option>
-                <option value="11.30">11:30</option>
-                <option value="12.00">12:00</option>
-                <option value="12.30">12:30</option>
-                <option value="13.00">13:00</option>
-                <option value="13.30">13:30</option>
-                <option value="14.00">14:00</option>
-                <option value="14.30">14:30</option>
-                <option value="15.00">15:00</option>
-                <option value="15.30">15:30</option>
-                <option value="16.00">16:00</option>
-                <option value="16.30">16:30</option>
-                <option value="17.00">17:00</option>
-                <option value="17.30">17:30</option>
+                    <option value="8.30">8:30</option>
+                    <option value="9.00">9:00</option>
+                    <option value="9.30">9:30</option>
+                    <option value="10.00">10:00</option>
+                    <option value="10.30">10:30</option>
+                    <option value="11.00">11:00</option>
+                    <option value="11.30">11:30</option>
+                    <option value="12.00">12:00</option>
+                    <option value="12.30">12:30</option>
+                    <option value="13.00">13:00</option>
+                    <option value="13.30">13:30</option>
+                    <option value="14.00">14:00</option>
+                    <option value="14.30">14:30</option>
+                    <option value="15.00">15:00</option>
+                    <option value="15.30">15:30</option>
+                    <option value="16.00">16:00</option>
+                    <option value="16.30">16:30</option>
+                    <option value="17.00">17:00</option>
+                    <option value="17.30">17:30</option>
                 </select>
-                </div>
-                <br>
+            </div>
     
             <div class="descriptor">
-                <label for="ingreso">Ingresado por</label></div>
+                <label for="ingreso">Ingresado por</label>
+            </div>
             <div class="etiqueta">
-                <input type="text" id="ingreso"  name="ingreso" placeholder="Nombre del personal encargado de ingresar la hora" />
-                </div>
-                <br>
-
-            <br>
+                <input type="text" id="ingreso"  name="ingreso" placeholder="Dr. Perez" />
+            </div>
             
             <div class="botones">
-            <button type="submit">Enviar</button>
+                <button type="submit">Enviar</button>
             
-            <button type="reset">Limpiar</button>
+                <button type="reset">Limpiar</button>
             </div>
     </form>
     </div>
