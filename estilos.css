@@ -7,20 +7,37 @@ body {
 
 }
 
-body.horas{
-   background-image: url(img/horasfondo.jpg);
-   background-position: top;
-   background-size: auto;
-}
-h1.tituloregistro{
-   margin:auto;
-   width: 800px;
+h1.tituloregistro {
    text-align: center;
    font-size: 35px;
    font-family: 'Prompt', sans-serif;
    color: white;
    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
 
+div.fachadadiv {
+   margin: auto;
+   width: 700px;
+   margin-bottom: 50px;
+
+}
+
+img.fachada{
+   width: 700px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 30px black;
+
+}
+
+div.botonesinicio {
+   text-align: center; 
+   margin-bottom: 50px;  
+}
+
+.registro {
+   background-image: url(img/register.jpg);
+   background-size: cover;
+   background-position: right;
 }
 
 div.formulario {
@@ -32,13 +49,7 @@ div.formulario {
    width: 550px;
    background-color: rgba(230, 230, 230, 0.863);
    margin-left: 10%;
-   float: left;
    margin-bottom: 100px;
-   
-}
-
-textarea {
-   vertical-align: top;
 }
 
 .descriptor {
@@ -53,12 +64,27 @@ textarea {
    border: 0px solid black;
    margin-left: 30%;
    margin-bottom: 10px;
-   
 }
 
-div.botones{
+textarea {
+   vertical-align: top;
+}
+
+div.botones {
    margin: auto;
    text-align: center;
+}
+
+div.botones2 {
+   margin: auto;
+   text-align: center;
+   margin-top: 100px;
+}
+
+body.horas {
+   background-image: url(img/horasfondo.jpg);
+   background-position: top;
+   background-size: auto;
 }
 
 div.formulario2 {
@@ -71,20 +97,46 @@ div.formulario2 {
    background-color: rgba(230, 230, 230, 0.863);
    margin-left: 10%;
    margin-top: 150px;
-   float: left;
-   
 }
 
-div.portada {
-   margin:auto;
-   width: 800px;
-   text-align: center;
-   margin-bottom: 50px;
-   
+.fichas {
+   background-image: url(img/fondofichas.png);
+   background-position: top;
+   background-size:cover;
 }
 
-div.botonesinicio {
-   margin: auto;
-   width: 800px;
-   text-align: center;   
+div.contenedorfichas {
+   margin-top: 50px;
 }
+.tabla th, td {
+   font-family: 'Quicksand', sans-serif;
+   padding: 10px;
+   border: 1px solid black;
+}
+   td {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.733);
+   }
+
+   th {
+      background-color: rgba(0, 0, 0, 0.178);
+      color: white;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   
